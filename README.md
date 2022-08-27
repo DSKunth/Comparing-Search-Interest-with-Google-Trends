@@ -18,7 +18,7 @@ This is a time series indexed by month with the search interest for each browser
 
 Google defines the values of search interest as: Numbers represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means there was not enough data for this term.
 
-### Kardashian & Jenner Sisters
+### 2. Kardashian & Jenner Sisters
 The sisters in particular over the past decade have been especially productive in this regard. Let's get some facts straight. I consider the "sisters" to be the following daughters of Kris Jenner. Three from her first marriage to lawyer Robert Kardashian:
 
 Kourtney Kardashian (daughter of Robert Kardashian, born in 1979)
