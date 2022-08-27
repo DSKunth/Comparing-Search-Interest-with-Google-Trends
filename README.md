@@ -18,7 +18,7 @@ This is a time series indexed by month with the search interest for each browser
 
 Google defines the values of search interest as: Numbers represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means there was not enough data for this term.
 
-For the reporst, you need to calculate three key metrics:
+For the report, you need to calculate three key metrics:
 - 1. Find the six month rolling average (a.k.a. simple moving average) for each date and browser in the dataset. Save your answer as pandas DataFrame called rolling_six with the column Month as the index. Null values are acceptable for dates where a rolling six month average can't be generated.
 - 2. Similar to above, create a DataFrame called pct_change_quarterly with the percentage change from the previous quarter for each date and browser. The values should be in percentage format, so 5 instead of 0.05. Since Chrome launched in late 2008, only include dates during or after 2009.
 - 3. From the earlier questions, you can see that even though Chrome eventually overtook Firefox, Chrome's growth has had its fair share of ups and downs. You will illustrate this by comparing Chrome's annual Google Trends performance in 2009, 2012, 2015, and 2018 in a DataFrame called chrome_trends. It should hold the search interest for Chrome with four columns for each year and twelve rows for each month of the year.
