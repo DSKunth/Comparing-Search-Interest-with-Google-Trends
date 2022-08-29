@@ -1,6 +1,4 @@
-# Complex-Analysis
-
-## Comparing Search Interest with Google Trends
+# Comparing Search Interest with Google Trends
 ### 1. Browser Wars
 In this notebook, we'll analyze the worldwide popularity of browsers over time using Google Trends. Although this won't give us direct market share figures, we can use Google Trends to get a sense of interest of a given browser over time and how that interest compares to other browsers. In particular, we will be looking at five major players over the past two decades: Mozilla Firefox (2002-), Apple's Safari (2002-), Google Chrome (2008-), Microsoft Internet Explorer (1995-2020), and Opera (1995-).
 
